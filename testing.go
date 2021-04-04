@@ -20,6 +20,10 @@ func main() {
 
 }
 
+//Control Flow can be 1] sequential
+//2] Loop/Iterative
+//3] Contditional
+
 func foo() {
 
 	fmt.Println("I am executing inside Foo now")
