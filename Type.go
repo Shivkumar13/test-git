@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-var y = 42
+var y = 41
 var z string = `"Shaken, 
 
 not stirred"`
