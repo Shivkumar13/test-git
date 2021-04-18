@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	s := "Hello Playground"
+	s := "HELLO PLAYGROUND"
 
 	fmt.Println(s)
 	fmt.Printf("%T\n", s)
@@ -12,4 +12,13 @@ func main() {
 	bs := []byte(s)
 	fmt.Println(bs)
 	fmt.Printf("%T\n", bs)
+	fmt.Printf("%x\n", bs)
+	fmt.Printf("%X\n", bs)
+	fmt.Printf("%p\n", bs)
+
+	for i := 0; i < len(s); i++ {
+
+		fmt.Printf("%#U", s[i])
+	}
+
 }
