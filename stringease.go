@@ -21,4 +21,8 @@ func main() {
 		fmt.Printf("%#U", s[i])
 	}
 
+	for i, v := range s {
+		fmt.Println(i, v)
+	}
+
 }
