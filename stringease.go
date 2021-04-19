@@ -21,7 +21,12 @@ func main() {
 		fmt.Printf("%#U", s[i])
 	}
 
-	for i, v := range s {
+	//Range form of the for loop interates over a slice or map.
+
+	//when ranging over a slice, two values are returned for each iteratio. The first is the index, and
+	//the second is a copy of the element at that index.
+
+	for i, v := range bs {
 		fmt.Println(i, v)
 	}
 
