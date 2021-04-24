@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+//Declaring variables
+
 var y = 41
 var z string = `"Shaken, 
 
